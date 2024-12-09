@@ -139,7 +139,7 @@ Les colonnes du jeu de données sont les suivantes:
 
 1. **Question 10 (5 points)** - Recodez la variable `Pclass` en `factor` avec les niveaux "1ère", "2ème" et "3ème". Recodez la variable `Survived` en `factor` avec les niveaux "Non" et "Oui". Recodez la variable `Embarked` en `factor` avec les niveaux "Cherbourg", "Queenstown" et "Southampton". Recodez la variable `Sex` en `factor` avec les niveaux "Femme" et "Homme".
 
-3. **Question 11 (10 points)** - Certaines colonnes semblent avoir des valeurs manquantes. Comptez, pour chaque colonne le nombre de valeurs manquantes. Vous devriez obtenir les résultats suivants:
+2. **Question 11 (10 points)** - Certaines colonnes semblent avoir des valeurs manquantes. Comptez, pour chaque colonne le nombre de valeurs manquantes. Vous devriez obtenir les résultats suivants:
 
   - `Age`: 177 valeurs manquantes
   - `Cabin`: 687 valeurs manquantes
@@ -156,7 +156,7 @@ Pour la variable `Age`, nous allons imputer les valeurs manquantes en utilisant 
 *Hint*: En utilisant la fonction `rnorm`, vous pouvez obtenir des valeurs négatives pour l'âge. Une possibilité est de remplacer les valeurs négatives par 0. Une autre possibilité est d'utiliser la fonction `rtruncnorm` du package `truncnorm` (à installer) pour générer des valeurs tronquées.
 
 
-2. **Question 12 (10 points)** - Combien de passagers ont survécu au naufrage du Titanic? Combien de passagers n'ont pas survécu? Créez une visualisation représentant la survie des passagers en fonction de la classe et du sexe des passagers.
+3. **Question 12 (10 points)** - Combien de passagers ont survécu au naufrage du Titanic? Combien de passagers n'ont pas survécu? Créez une visualisation représentant la survie des passagers en fonction de la classe et du sexe des passagers.
 
 Que pouvez vous en déduire?
 
@@ -164,7 +164,7 @@ Que pouvez vous en déduire?
 
 Nous allons essayer de prédire la survie des passagers en fonction des différentes variables. Pour cela, nous allons séparer les données en un ensemble d'entraînement et un ensemble de test. Utilisez 80% des données pour l'entraînement et 20% pour le test.
 
-5. **Question 13 (15 points)** - Créez un modèle de Random Forest pour prédire la survie des passagers en fonction de la classe, du sexe, de l'âge, du nombre de frères et soeurs / époux à bord, du nombre de parents / enfants à bord, du port d'embarquement et du prix du ticket.
+4. **Question 13 (15 points)** - Créez un modèle de Random Forest pour prédire la survie des passagers en fonction de la classe, du sexe, de l'âge, du nombre de frères et soeurs / époux à bord, du nombre de parents / enfants à bord, du port d'embarquement et du prix du ticket.
 
 Nous allons utiliser un Random Forest. Pour cela, vous pouvez utiliser le modèle suivant:
 
