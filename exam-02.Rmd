@@ -1,0 +1,87 @@
+---
+title: "Exam02 - Template étudiant"
+author: "[Votre Nom]"
+output: github_document
+---
+
+# Examen 02
+
+## Déclaration d’intégrité académique
+
+JE, [VOTRE NOM], déclare que l'ensemble du travail produit est le mien et qu'il n'a pas été produit par une autre personne ou un logiciel.
+
+## Load packages
+
+```{r}
+#| label: load-packages
+#| message: false
+
+# Indiquez les packages à charger ici
+```
+
+# Exercice 1
+
+## Question 1
+
+Votre narration ici
+
+```{r}
+# Votre code ici
+```
+
+
+## Question 2
+
+Entrez votre code et votre narration ici.
+
+## Question 3
+
+Entrez votre code et votre narration ici.
+
+## Question 4
+
+Entrez votre code et votre narration ici.
+
+## Question 5
+
+Entrez votre code et votre narration ici.
+
+## Question 6
+
+Entrez votre code et votre narration ici.
+
+## Question 7
+
+Entrez votre code et votre narration ici.
+
+## Question 8
+
+Entrez votre code et votre narration ici.
+
+## Question 9
+
+Entrez votre code et votre narration ici.
+
+## Question 10
+
+Entrez votre code et votre narration ici.
+
+## Question 11
+
+Entrez votre code et votre narration ici.
+
+## Question 12
+
+Entrez votre code et votre narration ici.
+
+## Question 13
+
+Entrez votre code et votre narration ici.
+
+## Question 14
+
+Entrez votre code et votre narration ici.
+
+## Question Bonus
+
+Entrez votre code et votre narration ici
